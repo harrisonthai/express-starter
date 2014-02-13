@@ -1,0 +1,77 @@
+[1mdiff --git a/views/index.html b/views/index.html[m
+[1mindex 31d967b..388fb6b 100644[m
+[1m--- a/views/index.html[m
+[1m+++ b/views/index.html[m
+[36m@@ -10,7 +10,7 @@[m
+     <meta name="author" content="">[m
+ [m
+     <!-- EDIT ME -->[m
+[31m-    <title>My Portfolio</title>[m
+[32m+[m[32m    <title>Harrison Thai</title>[m
+ [m
+     <!-- Bootstrap Core CSS -->[m
+     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">[m
+[36m@@ -35,7 +35,7 @@[m
+                 </button>[m
+                 <a class="navbar-brand" href="#page-top">[m
+                     <!-- EDIT ME -->[m
+[31m-                    <i class="fa fa-play-circle"></i>  <span class="light">My</span> Portfolio[m
+[32m+[m[32m                    <i class="fa fa-play-circle"></i>  <span class="light">Harrison</span> Thai[m
+                 </a>[m
+             </div>[m
+ [m
+[36m@@ -69,9 +69,9 @@[m
+                 <div class="row">[m
+                     <div class="col-md-8 col-md-offset-2">[m
+                         <!-- EDIT ME -->[m
+[31m-                        <h1 class="brand-heading">Barbara Streisand</h1>[m
+[32m+[m[32m                        <h1 class="brand-heading">Harrison Thai</h1>[m
+                         <!-- EDIT ME -->[m
+[31m-                        <p class="intro-text">This is my portfolio, and stuff. Here's another sentence about me. I also have a website. You are currently looking at it.</p>[m
+[32m+[m[32m                        <p class="intro-text">This is my portfolio, and stuff. I've had a great time setting up this website and I can't wait to see what else I can do.</p>[m
+                         <div class="page-scroll">[m
+                             <a href="#about" class="btn btn-circle">[m
+                                 <i class="fa fa-angle-double-down animated"></i>[m
+[36m@@ -88,8 +88,8 @@[m
+             <div class="col-lg-8 col-lg-offset-2">[m
+                 <!-- EDIT ME -->[m
+                 <h2>About Me</h2>[m
+[31m-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lectus est, pulvinar eu risus ut, porttitor ullamcorper mi. Aenean non quam arcu. Fusce feugiat velit vel lectus convallis elementum.</p>[m
+[31m-                <p>Pellentesque venenatis, dui nec auctor porta, felis sapien hendrerit quam, non rutrum arcu quam et leo. Pellentesque suscipit, justo nec convallis gravida, odio tortor imperdiet dui, in congue nibh nisl non purus. Integer nec tincidunt nisi. Nunc rhoncus eleifend nisi ut ornare.</p>[m
+[32m+[m[32m                <p>I am a Freshman at the University of California-Berkeley. </p>[m
+[32m+[m[32m                <p>I am also a member of the UC Berkeley's Men's Swimming and Diving Team</p>[m
+             </div>[m
+         </div>[m
+     </section>[m
+[36m@@ -100,7 +100,7 @@[m
+                 <div class="col-lg-8 col-lg-offset-2">[m
+                     <!-- EDIT ME -->[m
+                     <h2>My Work</h2>[m
+[31m-                    <p>Donec varius nulla leo. Quisque sollicitudin nunc eget magna dignissim, in consectetur massa scelerisque. Nunc rhoncus eros vitae nisl porttitor, ac vestibulum tellus blandit. Etiam blandit mauris eu imperdiet consectetur. Nulla at nisi cursus, dictum quam eget, fringilla lorem. Suspendisse mollis molestie lorem, id pharetra nunc consectetur eu. Praesent volutpat enim eu nisi ultrices mattis.</p>[m
+[32m+[m[32m                    <p>This is where my work will go.</p>[m
+                     <a href="http://www.youtube.com/watch?v=J1mGWhLwu64" class="btn btn-default btn-lg">View My Work</a>[m
+                 </div>[m
+             </div>[m
+[36m@@ -112,17 +112,17 @@[m
+             <div class="col-lg-8 col-lg-offset-2">[m
+                 <!-- EDIT ME -->[m
+                 <h2>Contact Me</h2>[m
+[31m-                <p>Feel free to email me to provide some feedback on my work, give me suggestions for new songs (preferably with autotune), or to just say hello!</p>[m
+[31m-                <p>barbar@streisand.com</p>[m
+[32m+[m[32m                <p>Feel free to email me at</p>[m
+[32m+[m[32m                <p>harrisonthai@berkeley.edu</p>[m
+                 <ul class="list-inline banner-social-buttons">[m
+                     <!-- EDIT ME -->[m
+[31m-                    <li><a href="https://twitter.com/BarbraStreisand" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>[m
+[32m+[m[32m                    <li><a href="https://twitter.com/HarrisonThai" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>[m
+                     </li>[m
+                     <!-- EDIT ME -->[m
+[31m-                    <li><a href="https://github.com/pftp" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>[m
+[32m+[m[32m                    <li><a href="https://github.com/harrisonthai" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>[m
+                     </li>[m
+                     <!-- EDIT ME (OR REMOVE ME LOL) -->[m
+[31m-                    <li><a href="https://www.google.com/#q=does+anyone+actually+use+google%2B" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>[m
+[32m+[m[32m                    <li><a href="https://www.facebook.com/tellmeifyounoticethatthisisreallylong" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>[m
+                     </li>[m
+                 </ul>[m
+             </div>[m
