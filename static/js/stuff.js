@@ -8,17 +8,23 @@ alert('hello world!');
 
 // Problem 2 (Houdini) ------------------------------------------------------
 $('#disappear').click(function() {
-  //WRITE CODE HERE
+	$('#houdini_text').hide()
 });
 
 $('#reappear').click(function() {
-  //WRITE CODE HERE
+	$('#houdini_text').show()
 });
 
 
 // Problem 3 (Tickle Me Pink) -----------------------------------------------
-// WRITE CODE HERE
+$('#colorize').click(function() {
+	$('#tickled_text').css('color','red');
+});
 
 
 // Problem 4 (Greet Me) -----------------------------------------------------
-// WRITE CODE HERE
+$('#Greet_Me').click(function()  {
+	var value = $('#my_name').val();
+	alert('Hello ' + value);
+});
+
